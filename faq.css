@@ -163,25 +163,30 @@ ul li {
 }
 
 .first-section {
-  font-weight: 300;
+  font-weight: 200;
+  padding-bottom: 15px;
+  color: #747474;
 }
 
 .second-section {
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 200;
+    font-weight: 100;
     font-size: 25px;
+    color: #747474;
 }
 
 .faq-header {
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
-    color: #3b83c0;
+    font-weight: 200;
+    color: #747474;
 }
 
 .faq-question{
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 200;
+    font-weight: 100;
     font-size: 20px;
+    margin-bottom: 2px;
+    color: #747474;
 }
 
 .faq-answer {
@@ -197,7 +202,7 @@ ul li {
 
 footer {
     padding: 50px 0;
-    background-color: #bdc3c7;
+    background-color: #e7e7e7;
 }
 
 footer p {
