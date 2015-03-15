@@ -55,6 +55,7 @@ ul li {
     font-size: 50px;
     font-family: 'Source Sans Pro', sans-serif;
     font-family: 300;
+
 }
 
 .faq-intro .faq-intro-body .faq-intro-text {
@@ -66,6 +67,7 @@ ul li {
 .faq-intro-button {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
+  position: middle;
 }
 
 @media(min-width:768px) {
