@@ -8,6 +8,14 @@ html {
     height: 100%;
 }
 
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+}
+
 #fetch-nav {
     margin-top: 38px;
 
@@ -146,16 +154,16 @@ html {
 }
 
 .intro-button {
- display: inline-block;
- width: 200px;
- padding: 15px 8px;
- color: #fff;
- border: 3px solid #fff;
- border-radius: 6px;
- text-align: center;
- outline: none;
- text-decoration: none;
- margin-top: 15px;
+   display: inline-block;
+   width: 200px;
+   padding: 15px 8px;
+   color: #fff;
+   border: 3px solid #fff;
+   border-radius: 6px;
+   text-align: center;
+   outline: none;
+   text-decoration: none;
+   margin-top: 15px;
 }
 
 .intro-button:hover,
@@ -178,6 +186,10 @@ html {
         font-size: 50px;
         padding-bottom: 15px;
     }
+}
+
+.intro-list {
+    padding-top: 100px;
 }
 
 .iphone {
