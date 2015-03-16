@@ -8,16 +8,11 @@ html {
     height: 100%;
 }
 
-ul {
-    list-style-type: none;
-}
-
-ul li {
-    display: inline;
-}
 
 #fetch-nav {
     margin-top: 38px;
+    font-size: 18px;
+    font-weight: 700;
 
 }
 
@@ -112,13 +107,16 @@ ul li {
 #nav-button {
     background-color: #fff;
     color: #5bd4c0;
+    font-size: 18px;
+    margin-left: 12px;
 }
 
 .fetch-logo {
-    height: 115px;
-    width: 115px;
+    height: 135px;
+    width: 135px;
     padding: 0 0 0 0;
     margin-bottom: 20px;
+    margin-left: 15px;
 }
 
 .intro {
@@ -151,9 +149,11 @@ ul li {
 
 #intro-text {
     padding-top: 75px;
+    padding-left: 35px;
 }
 
 .intro-button {
+
    display: inline-block;
    width: 200px;
    padding: 15px 8px;
@@ -162,14 +162,14 @@ ul li {
    border-radius: 6px;
    text-align: center;
    outline: none;
-   text-decoration: none;
-   margin-top: 15px;
+   font-size: 20px;
 }
 
 .intro-button:hover,
 .intro-button:active {
   background-color: transparent;
   color: #fff;
+  text-decoration: none;
 }
 
 @media(min-width:768px) {
@@ -189,12 +189,27 @@ ul li {
 }
 
 .intro-list {
-    padding-top: 100px;
+    padding: 100px 15px 0 0;
+    list-style-type: none;
+    text-align: left;
+}
+
+.list-item a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.intro-list .list-item {
+    display: inline;
+    padding: 10px 45px 0px 0px;
+    font-size: 22px;
 }
 
 .iphone {
     height: 580px;
     width: 310px;
+    margin-right: 70px;
 }
 
 .content-section {
