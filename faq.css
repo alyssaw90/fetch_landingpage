@@ -277,20 +277,19 @@ ul li {
 .first-section {
   font-weight: 200;
   padding-bottom: 15px;
-  color: #747474;
+  color: #5bd4c0;
 }
 
 .second-section {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
     font-size: 25px;
-    color: #747474;
 }
 
 .faq-header {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 200;
-    color: #747474;
+    color: #5bd4c0;
 }
 
 .faq-question{
@@ -298,14 +297,13 @@ ul li {
     font-weight: 100;
     font-size: 20px;
     margin-bottom: 2px;
-    color: #747474;
 }
 
 .faq-answer {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     font-size: 20px;
-    color: #3b83c0;
+    color: #747474;
 }
 
 .email {
