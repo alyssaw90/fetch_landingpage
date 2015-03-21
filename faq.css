@@ -108,7 +108,7 @@ ul li {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #2e8ece;
+        background: #5bd4c0;
     }
 }
 
@@ -145,15 +145,11 @@ ul li {
 
 .faq-intro {
     display: table;
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 100px;
     color: #fff;
-    background: url(../img/woods.jpg) no-repeat bottom center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background: url(../img/woods.png) no-repeat top center;
+    padding: 25px 0 0 30px;
+    width: 100%;
+    height: 100%;
 }
 
 .faq-intro .faq-intro-body {
@@ -210,30 +206,6 @@ ul li {
     transition: background .3s ease-in-out;
 }
 
-.btn-circle:hover,
-.btn-circle:focus {
-    outline: 0;
-    color: #fff;
-    background: rgba(255,255,255,.1);
-}
-
-.btn-circle i.animated {
-    -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 1s;
-    -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 1s;
-}
-
-.btn-circle:hover i.animated {
-    -webkit-animation-name: pulse;
-    -moz-animation-name: pulse;
-    -webkit-animation-duration: 1.5s;
-    -moz-animation-duration: 1.5s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-}
 
 @-webkit-keyframes pulse {
     0 {
@@ -275,7 +247,7 @@ ul li {
 }
 
 .first-section {
-  font-weight: 200;
+  font-weight: 300;
   padding-bottom: 15px;
   color: #5bd4c0;
 }
@@ -288,26 +260,30 @@ ul li {
 
 .faq-header {
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
+    font-size: 26px;
     color: #5bd4c0;
+    padding-bottom: 15px;
 }
 
 .faq-question{
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 20px;
     margin-bottom: 2px;
 }
 
 .faq-answer {
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-size: 20px;
     color: #747474;
+    padding-bottom: 15px;
 }
 
 .email {
     font-weight: 400;
+    color: #5bd4c0;
 }
 
 footer {
